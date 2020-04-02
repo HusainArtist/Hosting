@@ -1,0 +1,4 @@
+{
+    "mongoDBConnectURI" : "mongodb+srv://Husain5253:YzDLUtVN1LJjO71g@humberwork-uxso8.mongodb.net/restaurant_app_db?retryWrites=true&w=majority",
+    "jwtsecret": "secret"
+}
