@@ -42,9 +42,9 @@ router.get('/:id',auth, async (req, res) => {
 //access public
 router.post('/', [
     check('order_items').not().isEmpty(),
-    check('email').not().isEmpty().isEmail(),
-    check('phone').not().isEmpty().isMobilePhone(),
-    check('total').isDecimal()
+    check('email').not().isEmpty(),
+    check('phone').not().isEmpty(),
+    check('Total').isDecimal()
 ]
 ,auth,async (req, res) => {
   try {
