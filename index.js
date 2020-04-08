@@ -33,5 +33,3 @@ app.use('/api/coupons', couponRoute);
 app.use('/api/application', applicationRoute);
 
 app.listen(process.env.PORT);
-
-
